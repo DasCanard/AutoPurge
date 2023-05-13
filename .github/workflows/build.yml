@@ -1,0 +1,21 @@
+name: build
+
+on:
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Java setup
+        uses: actions/setup-java@v2
+        with:
+          distribution: "zulu"
+          java-version: 17
+          cache: "gradle"
+      - name: Build
+        run: chmod +x ./gradlew && ./gradlew build
