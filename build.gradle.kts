@@ -3,8 +3,7 @@ plugins {
     application
 }
 
-group = "me.dascanard.bot"
-version = "1.0"
+group = "de.canard.autopurge"
 
 repositories {
     mavenCentral()

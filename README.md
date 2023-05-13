@@ -56,9 +56,7 @@ Provide the following environment variables for the bot to function properly:
 To start the bot, use the following command:
 
 ```
-java -jar build/libs/AutoPurge-<version>.jar
+java -jar build/libs/AutoPurge.jar
 ```
-
-Replace `<version>` with the actual version number of your JAR file.
 
 The bot should now be running and will automatically delete messages in the specified text channels after the configured time interval, while displaying a progress bar for the time remaining until the next check 🎉
