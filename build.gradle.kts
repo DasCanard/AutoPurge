@@ -12,7 +12,7 @@ repositories {
 dependencies {
     implementation("net.dv8tion:JDA:5.0.0-beta.12")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.8.22")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     testImplementation(kotlin("test"))
 }
 
