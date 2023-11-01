@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     implementation("net.dv8tion:JDA:5.0.0-beta.15")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.10")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.20")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     testImplementation(kotlin("test"))
 }
